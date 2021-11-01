@@ -31,9 +31,12 @@ namespace First_WinForms
         {
             System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Exercise 1");
             System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Exercise 2");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Lab1", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Lab 1", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2});
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Lab 2");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Lab 3");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Lab 4");
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
@@ -46,9 +49,18 @@ namespace First_WinForms
             treeNode2.Name = "Ex1b";
             treeNode2.Text = "Exercise 2";
             treeNode3.Name = "Node0";
-            treeNode3.Text = "Lab1";
+            treeNode3.Text = "Lab 1";
+            treeNode4.Name = "Ex2";
+            treeNode4.Text = "Lab 2";
+            treeNode5.Name = "Ex3";
+            treeNode5.Text = "Lab 3";
+            treeNode6.Name = "Ex4";
+            treeNode6.Text = "Lab 4";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode3});
+            treeNode3,
+            treeNode4,
+            treeNode5,
+            treeNode6});
             this.treeView1.Size = new System.Drawing.Size(776, 426);
             this.treeView1.TabIndex = 0;
             this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tree_AfterSelect);
