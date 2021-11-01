@@ -169,9 +169,9 @@ namespace First_WinForms
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.groupBox1.Location = new System.Drawing.Point(248, 152);
+            this.groupBox1.Location = new System.Drawing.Point(186, 152);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(248, 147);
+            this.groupBox1.Size = new System.Drawing.Size(378, 147);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "get percent of result value";

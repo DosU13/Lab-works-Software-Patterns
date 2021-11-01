@@ -38,6 +38,9 @@ namespace First_WinForms
                     case "Ex4":
                         new Form4().Show();
                         break;
+                    case "Ex5":
+                        new Form5().Show();
+                        break;
                 }
             }
             catch (Exception) { }
