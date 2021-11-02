@@ -50,6 +50,12 @@ namespace First_WinForms
                     case "Ex7":
                         new Form7().Show();
                         break;
+                    case "Ex8a":
+                        new Form8a().Show();
+                        break;
+                    case "Ex8b":
+                        new Form8b().Show();
+                        break;
                 }
             }
             catch (Exception) { }

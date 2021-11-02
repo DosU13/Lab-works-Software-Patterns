@@ -44,6 +44,11 @@ namespace First_WinForms
             treeNode8});
             System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Lab 6");
             System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Lab 7");
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("RadioButton CheckBox ChecklistBox");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("ChecklistBox");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Lab 8", new System.Windows.Forms.TreeNode[] {
+            treeNode12,
+            treeNode13});
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
@@ -74,6 +79,12 @@ namespace First_WinForms
             treeNode10.Text = "Lab 6";
             treeNode11.Name = "Ex7";
             treeNode11.Text = "Lab 7";
+            treeNode12.Name = "Ex8a";
+            treeNode12.Text = "RadioButton CheckBox ChecklistBox";
+            treeNode13.Name = "Ex8b";
+            treeNode13.Text = "ChecklistBox";
+            treeNode14.Name = "Node0";
+            treeNode14.Text = "Lab 8";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
             treeNode4,
@@ -81,7 +92,8 @@ namespace First_WinForms
             treeNode6,
             treeNode9,
             treeNode10,
-            treeNode11});
+            treeNode11,
+            treeNode14});
             this.treeView1.Size = new System.Drawing.Size(776, 426);
             this.treeView1.TabIndex = 0;
             this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tree_AfterSelect);
