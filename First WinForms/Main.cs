@@ -38,8 +38,17 @@ namespace First_WinForms
                     case "Ex4":
                         new Form4().Show();
                         break;
-                    case "Ex5":
-                        new Form5().Show();
+                    case "Ex5a":
+                        new Form5a().Show();
+                        break;
+                    case "Ex5b":
+                        new Form5b().Show();
+                        break;
+                    case "Ex6":
+                        new Form6().Show();
+                        break;
+                    case "Ex7":
+                        new Form7().Show();
                         break;
                 }
             }

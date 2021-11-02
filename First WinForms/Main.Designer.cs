@@ -37,7 +37,13 @@ namespace First_WinForms
             System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Lab 2");
             System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Lab 3");
             System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Lab 4");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Lab 5");
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("TextBox");
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("RichTextBox");
+            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Lab 5", new System.Windows.Forms.TreeNode[] {
+            treeNode7,
+            treeNode8});
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Lab 6");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Lab 7");
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
@@ -58,14 +64,24 @@ namespace First_WinForms
             treeNode5.Text = "Lab 3";
             treeNode6.Name = "Ex4";
             treeNode6.Text = "Lab 4";
-            treeNode7.Name = "Ex5";
-            treeNode7.Text = "Lab 5";
+            treeNode7.Name = "Ex5a";
+            treeNode7.Text = "TextBox";
+            treeNode8.Name = "Ex5b";
+            treeNode8.Text = "RichTextBox";
+            treeNode9.Name = "Ex5";
+            treeNode9.Text = "Lab 5";
+            treeNode10.Name = "Ex6";
+            treeNode10.Text = "Lab 6";
+            treeNode11.Name = "Ex7";
+            treeNode11.Text = "Lab 7";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
             treeNode4,
             treeNode5,
             treeNode6,
-            treeNode7});
+            treeNode9,
+            treeNode10,
+            treeNode11});
             this.treeView1.Size = new System.Drawing.Size(776, 426);
             this.treeView1.TabIndex = 0;
             this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tree_AfterSelect);
