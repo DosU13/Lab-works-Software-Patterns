@@ -56,6 +56,12 @@ namespace First_WinForms
                     case "Ex8b":
                         new Form8b().Show();
                         break;
+                    case "Ex9":
+                        new Form9().Show();
+                        break;
+                    case "Ex10":
+                        new Form10().Show();
+                        break;
                 }
             }
             catch (Exception) { }
