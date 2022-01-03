@@ -54,6 +54,8 @@ namespace First_WinForms
             System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Lab 11");
             System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Lab 12");
             System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Lab 13");
+            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Lab 14");
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Lab 15");
             this.treeView1 = new System.Windows.Forms.TreeView();
             this.SuspendLayout();
             // 
@@ -100,6 +102,10 @@ namespace First_WinForms
             treeNode18.Text = "Lab 12";
             treeNode19.Name = "Ex13";
             treeNode19.Text = "Lab 13";
+            treeNode20.Name = "Ex14";
+            treeNode20.Text = "Lab 14";
+            treeNode21.Name = "Ex15";
+            treeNode21.Text = "Lab 15";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode3,
             treeNode4,
@@ -113,7 +119,9 @@ namespace First_WinForms
             treeNode16,
             treeNode17,
             treeNode18,
-            treeNode19});
+            treeNode19,
+            treeNode20,
+            treeNode21});
             this.treeView1.Size = new System.Drawing.Size(776, 426);
             this.treeView1.TabIndex = 0;
             this.treeView1.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tree_AfterSelect);
