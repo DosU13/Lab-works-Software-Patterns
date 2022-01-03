@@ -31,12 +31,12 @@ namespace First_WinForms
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.firstFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.secondFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewStylesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.arrangeIconsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cascadeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileHorizontalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileVerticalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.secondFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.calculationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -61,14 +61,6 @@ namespace First_WinForms
             this.firstFormToolStripMenuItem.Size = new System.Drawing.Size(88, 24);
             this.firstFormToolStripMenuItem.Text = "First Form";
             // 
-            // secondFormToolStripMenuItem
-            // 
-            this.secondFormToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.calculationToolStripMenuItem});
-            this.secondFormToolStripMenuItem.Name = "secondFormToolStripMenuItem";
-            this.secondFormToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
-            this.secondFormToolStripMenuItem.Text = "Second Form";
-            // 
             // viewStylesToolStripMenuItem
             // 
             this.viewStylesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -77,41 +69,49 @@ namespace First_WinForms
             this.tileHorizontalToolStripMenuItem,
             this.tileVerticalToolStripMenuItem});
             this.viewStylesToolStripMenuItem.Name = "viewStylesToolStripMenuItem";
-            this.viewStylesToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.viewStylesToolStripMenuItem.Size = new System.Drawing.Size(164, 26);
             this.viewStylesToolStripMenuItem.Text = "View styles";
             // 
             // arrangeIconsToolStripMenuItem
             // 
             this.arrangeIconsToolStripMenuItem.Name = "arrangeIconsToolStripMenuItem";
-            this.arrangeIconsToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.arrangeIconsToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.arrangeIconsToolStripMenuItem.Text = "ArrangeIcons";
             this.arrangeIconsToolStripMenuItem.Click += new System.EventHandler(this.arrangeIconsToolStripMenuItem_Click);
             // 
             // cascadeToolStripMenuItem
             // 
             this.cascadeToolStripMenuItem.Name = "cascadeToolStripMenuItem";
-            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cascadeToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.cascadeToolStripMenuItem.Text = "Cascade";
             this.cascadeToolStripMenuItem.Click += new System.EventHandler(this.cascadeToolStripMenuItem_Click);
             // 
             // tileHorizontalToolStripMenuItem
             // 
             this.tileHorizontalToolStripMenuItem.Name = "tileHorizontalToolStripMenuItem";
-            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tileHorizontalToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.tileHorizontalToolStripMenuItem.Text = "TileHorizontal";
             this.tileHorizontalToolStripMenuItem.Click += new System.EventHandler(this.tileHorizontalToolStripMenuItem_Click);
             // 
             // tileVerticalToolStripMenuItem
             // 
             this.tileVerticalToolStripMenuItem.Name = "tileVerticalToolStripMenuItem";
-            this.tileVerticalToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tileVerticalToolStripMenuItem.Size = new System.Drawing.Size(186, 26);
             this.tileVerticalToolStripMenuItem.Text = "TileVertical";
             this.tileVerticalToolStripMenuItem.Click += new System.EventHandler(this.tileVerticalToolStripMenuItem_Click);
+            // 
+            // secondFormToolStripMenuItem
+            // 
+            this.secondFormToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.calculationToolStripMenuItem});
+            this.secondFormToolStripMenuItem.Name = "secondFormToolStripMenuItem";
+            this.secondFormToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.secondFormToolStripMenuItem.Text = "Second Form";
             // 
             // calculationToolStripMenuItem
             // 
             this.calculationToolStripMenuItem.Name = "calculationToolStripMenuItem";
-            this.calculationToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.calculationToolStripMenuItem.Size = new System.Drawing.Size(166, 26);
             this.calculationToolStripMenuItem.Text = "Calculation";
             this.calculationToolStripMenuItem.Click += new System.EventHandler(this.calculationToolStripMenuItem_Click);
             // 
@@ -125,6 +125,7 @@ namespace First_WinForms
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form10";
             this.Text = "Form10";
+            this.Load += new System.EventHandler(this.Form10_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

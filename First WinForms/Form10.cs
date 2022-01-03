@@ -80,5 +80,10 @@ namespace First_WinForms
                 child.Close();
             }
         }
+
+        private void Form10_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

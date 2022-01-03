@@ -65,6 +65,12 @@ namespace First_WinForms
                     case "Ex11":
                         new Form11().Show();
                         break;
+                    case "Ex12":
+                        new Form12().Show();
+                        break;
+                    case "Ex13":
+                        new Form13().Show();
+                        break;
                 }
             }
             catch (Exception) { }
