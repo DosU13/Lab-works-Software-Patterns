@@ -6,8 +6,10 @@
     <td>Main window</td>
   </tr>
   <tr>
-    <td><img src="Снимки%20экрана/Screenshot%202022-01-07%20070343.png" width=*></td>
+    <td><img src="Снимки%20экрана/main.png" width=*></td>
   </tr>
+</table>
+<table>
   <tr>
     <td>Lab 8</td>
     <td>Lab 8</td>
@@ -39,6 +41,8 @@
     <td><img src="Снимки%20экрана/13.png" width=*></td>
     <td><img src="Снимки%20экрана/14.png" width=*></td>
   </tr>
+</table>
+<table>
   <tr>
     <td>Lab 15</td>
   </tr>
